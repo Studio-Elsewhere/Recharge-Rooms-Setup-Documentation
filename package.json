@@ -1,0 +1,16 @@
+{
+  "name": "se-recharge",
+  "version": "1.0.0",
+  "description": "Studio Elsewhere Recharge Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": "https://github.com/IsaacSante/documentation_se.git",
+  "author": "Isaac Sante <43215955+IsaacSante@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vuepress": "^1.8.0"
+  }
+}
