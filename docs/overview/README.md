@@ -125,7 +125,7 @@ After the HomeBridge is connected you can connect the lights by typing the six d
 
 At this step we recommend you group the lights into categories, which are called zones, in the app. This will make it easier to automate everything later on. 
 
-<img src="./content/zones.png" width="300" height="600">
+<!-- <img src="./content/zones.png" width="300" height="600"> -->
 
 You can also change the default light settings to have specific colors when people turn them on. 
 
