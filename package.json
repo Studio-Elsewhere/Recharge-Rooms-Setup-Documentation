@@ -4,9 +4,10 @@
   "description": "Studio Elsewhere Recharge Documentation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:build": "vuepress build"
-  },
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
   "repository": "https://github.com/IsaacSante/documentation_se.git",
   "author": "Isaac Sante <43215955+IsaacSante@users.noreply.github.com>",
   "license": "MIT",
