@@ -16,8 +16,9 @@ Here is a list of available scenes.
 
 A recharge room is composed of the following **devices/parts**
 
-* Netgear Router, Netgear AC1750 or AC2300 
+* [TP-Link Archer AX3000](https://www.walmart.com/ip/TP-Link-Archer-AX3000-4-Stream-Dual-Band-Wi-Fi-6-Router-Up-to-3-Gbps-Speeds-Powered-by-Intel/100797162)
   * Bandwith should be more than 1300 Mbps
+  * 4 Stream Dual-Band Wi-Fi 6 Wireless 
 
 * Raspberry Pi 4 4GB
   * Raspberry Pi case (aluminium)
@@ -60,19 +61,58 @@ And the following **software**
 * Nabu Casa
 * IFTTT
 
-**All device and account info you create during the setup process must be written in the google spreadsheet. Double check the info you put into the sheet becuase one wrong email for an account can be days spent debugging a simple problem**.
+
+## General Setup Steps
+1. All device and account info you create during the setup process must be written in the google spreadsheet.
+* Double check the info you put into the sheet becuase one wrong email for an account can be days spent debugging a simple problem
+
+2. Make sure to connect all devices to the 5G version of the network. At least all the IOT devices that are compatible on 5G.
+
+3. In a google sheet write down the MAC adresses and IP adresses of all the devices connected to the WiFi, including that of the router. This is to give later to IT department.
+
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lZ0SOlM=/?moveToViewport=-7296,-5555,18315,10741" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
-**Make sure to connect all devices to the 5G version of the network. At least all the IOT devices that are compatible on 5G.**
+
+## Account Setup/Guidelines
+Everyroom requires a gmail account. 
+
+The current system uses the pro version of IFTTT and NabuCasa which we pay for monthly. 
+
+### Billing Forwarding
+The billing info will come to the room gmail. Set up every gmail to foward to our centralized billing email **billing@studioelsewhere.co**
+
+### Recovery email
+Every room gmail needs a recovery/backup email. Please set this to **support@studioelsewhere.co**
+
+### Logging into services
+Log in to services through email option only. **Do not use option to log in via Facebook, Gmail or other platform**
+We do this to remove a step of authentification and to give an extra layer of security to hospital network. 
+
+### Setup Two Step Authentication
+Make sure all cloud services/ where applicable include two step authentication.
+
+### Setup Two Step Authentication
+If you need to Log into the router or HomeAssistant remotely ...using NabuCasa or remote acesss on TP link please use a VPN.
+
+### Google Home Setup
+* Disable options for sending audio recordings to Google.
+* Set activity data to auto-delete after 3 months. 
 
 ## Router Setup
 
-### Netgear Router
+### Router 
+* Disable 2.4 Ghz WiFi. 
+* Setup parental controls to block any potential NSFW content.
 
-The current version of the setup uses a AC2300 Smart WiFi Router. 
+### TP-Link Router
+
+
+
+The current version of the setup uses a TP-Link Archer AX3000 router. 
 
 Unbox the Router and sure not to throw away the plastic layer on the top of the router. There is a QR code on the cover which will be needed when paring with the router app. 
+
 Connect the yellow ethernet cable to the back of the router. This will be the cable that connects to the hospital ethernet port.
 
 **Ethernet Cable must be CAT7 for faster speeds**

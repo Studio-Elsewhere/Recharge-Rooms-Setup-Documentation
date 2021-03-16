@@ -10,6 +10,7 @@ module.exports = {
         sidebar : {
             '/overview/' : [
                 '',
+                'chromecast',
                 'scripting',
                 'router',
                 'analytics',
