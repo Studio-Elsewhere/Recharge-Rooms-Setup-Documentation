@@ -10,9 +10,11 @@ module.exports = {
         sidebar : {
             '/overview/' : [
                 '',
-                'chromecast',
-                'scripting',
                 'router',
+                'pi',
+                'google',
+                'scripting',
+                'light',
                 'analytics',
                 '/about'
             ],

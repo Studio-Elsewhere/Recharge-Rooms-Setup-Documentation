@@ -1,3 +1,0 @@
-# Chromecast Settings
-
-* Chromecast Setup

@@ -1,4 +1,4 @@
-# Home Assistant
+# Python Scripts
 ## Integrations
 
 To add an integration go to the sidebar and click on **configuration** on the bottom left. Then go into integrations.
